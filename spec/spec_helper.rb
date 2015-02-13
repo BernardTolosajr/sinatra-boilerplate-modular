@@ -1,5 +1,4 @@
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
-require File.join(File.dirname(__FILE__), '..', '/helpers/init.rb')
 
 ENV['RACK_ENV'] = 'test'
 require 'rack/test'
